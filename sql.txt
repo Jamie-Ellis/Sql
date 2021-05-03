@@ -1,20 +1,17 @@
-CREATE TABLE public.tutors
-(
-    name "char",
-    last_name "char",
-    location "char"
-)
-
-TABLESPACE pg_default;
-
-ALTER TABLE public.tutors
-    OWNER to postgres;
+CREATE TABLE IF NOT EXISTS
+    tutors(
+        tutor_id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+      	name VARCHAR(50) NOT NULL,
+      	last_name VARCHAR(50) NOT NULL,
+        country VARCHAR(50) NOT NULL,
+      	created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+        );
 
 INSERT INTO
   tutors (
 		name,
   		last_name, 
-	  	location
+	  	country
 	)
   VALUES(
   	'Diego',
@@ -26,7 +23,7 @@ INSERT INTO
   tutors (
 		name,
   		last_name, 
-	  	location
+	  	country
 	)
   VALUES(
   	'Diego',
@@ -38,7 +35,7 @@ INSERT INTO
   tutors (
 		name,
   		last_name, 
-	  	location
+	  	country
 	)
   VALUES(
   	'Diego',
@@ -49,7 +46,7 @@ INSERT INTO
   tutors (
 		name,
   		last_name, 
-	  	location
+	  	country
 	)
   VALUES(
   	'Diego',
@@ -60,7 +57,7 @@ INSERT INTO
   tutors (
 		name,
   		last_name, 
-	  	location
+	  	country
 	)
   VALUES(
   	'Diego',
@@ -71,7 +68,7 @@ INSERT INTO
   tutors (
 		name,
   		last_name, 
-	  	location
+	  	country
 	)
   VALUES(
   	'Diego',
@@ -82,7 +79,7 @@ INSERT INTO
   tutors (
 		name,
   		last_name, 
-	  	location
+	  	country
 	)
   VALUES(
   	'Diego',
@@ -93,7 +90,7 @@ INSERT INTO
   tutors (
 		name,
   		last_name, 
-	  	location
+	  	country
 	)
   VALUES(
   	'Diego',
@@ -104,7 +101,7 @@ INSERT INTO
   tutors (
 		name,
   		last_name, 
-	  	location
+	  	country
 	)
   VALUES(
   	'Diego',
@@ -115,7 +112,7 @@ INSERT INTO
   tutors (
 		name,
   		last_name, 
-	  	location
+	  	country
 	)
   VALUES(
   	'Diego',
@@ -126,7 +123,7 @@ INSERT INTO
   tutors (
 		name,
   		last_name, 
-	  	location
+	  	country
 	)
   VALUES(
   	'Diego',
