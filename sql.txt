@@ -1,0 +1,137 @@
+CREATE TABLE public.tutors
+(
+    name "char",
+    last_name "char",
+    location "char"
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.tutors
+    OWNER to postgres;
+
+INSERT INTO
+  tutors (
+		name,
+  		last_name, 
+	  	location
+	)
+  VALUES(
+  	'Diego',
+    'Banovaz',
+	'Italy'
+  );
+
+INSERT INTO
+  tutors (
+		name,
+  		last_name, 
+	  	location
+	)
+  VALUES(
+  	'Diego',
+    'Banovaz',
+	'Italy'
+  );
+
+INSERT INTO
+  tutors (
+		name,
+  		last_name, 
+	  	location
+	)
+  VALUES(
+  	'Diego',
+    'Banovaz',
+	'Italy'
+  );
+INSERT INTO
+  tutors (
+		name,
+  		last_name, 
+	  	location
+	)
+  VALUES(
+  	'Diego',
+    'Banovaz',
+	'Italy'
+  );
+INSERT INTO
+  tutors (
+		name,
+  		last_name, 
+	  	location
+	)
+  VALUES(
+  	'Diego',
+    'Banovaz',
+	'Italy'
+  );
+INSERT INTO
+  tutors (
+		name,
+  		last_name, 
+	  	location
+	)
+  VALUES(
+  	'Diego',
+    'Banovaz',
+	'Italy'
+  );
+INSERT INTO
+  tutors (
+		name,
+  		last_name, 
+	  	location
+	)
+  VALUES(
+  	'Diego',
+    'Banovaz',
+	'Italy'
+  );
+INSERT INTO
+  tutors (
+		name,
+  		last_name, 
+	  	location
+	)
+  VALUES(
+  	'Diego',
+    'Banovaz',
+	'Italy'
+  );
+INSERT INTO
+  tutors (
+		name,
+  		last_name, 
+	  	location
+	)
+  VALUES(
+  	'Diego',
+    'Banovaz',
+	'Italy'
+  );
+INSERT INTO
+  tutors (
+		name,
+  		last_name, 
+	  	location
+	)
+  VALUES(
+  	'Diego',
+    'Banovaz',
+	'Italy'
+  );
+INSERT INTO
+  tutors (
+		name,
+  		last_name, 
+	  	location
+	)
+  VALUES(
+  	'Diego',
+    'Banovaz',
+	'Italy'
+  );
+
+
